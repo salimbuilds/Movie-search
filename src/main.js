@@ -75,6 +75,7 @@ function showMovies(movies){
   }
 
   cardContainer.innerHTML += `
+  <a href="detail.html?id=${movie.imdbID}">
    <div class="card bg-base-100  shadow-sm">
   <figure class="px-10 pt-10">
     <img
@@ -93,7 +94,7 @@ function showMovies(movies){
 
     </div>
   
-  
+  </a>
   
   `;
 
